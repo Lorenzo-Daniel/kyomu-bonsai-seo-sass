@@ -1,0 +1,18 @@
+{
+  "name": "kyomu_bonsai-seo-sass",
+  "version": "1.0.0",
+  "description": "-Verifique correcta jerarquia de encabezados.\r -Modifique titulos en etiquetas <title>.\r -Sustitui lorem ipsum por texto real.\r -verifique correcta ortografia.\r -Agregue descripcion en atributo alt=\"\" de img.\r -genere y agregue sitemap\r -verifique tiempo de carga en inspector (1.02s).\r -agregue plabras clave <meta name=\"keywords\" content=\"bonsái,cursos bonsái,comprar bonsái,herramientas para bonsái,macetas para bonsái,filosofia oriental, zen, japon,china,montevideo,parque rodó\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
